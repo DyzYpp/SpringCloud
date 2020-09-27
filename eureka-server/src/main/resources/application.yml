@@ -1,0 +1,23 @@
+server:
+  port: 8001
+#  port: 8002
+#  port: 8003
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  #    hostname: www.eureka1.com
+  #    hostname: www.eureka2.com
+  #    hostname: www.eureka3.com
+  client:
+    register-with-eureka: false  # 是否将自己注册到eureka server
+    fetch-registry: false # 是否从eureka获取注册信息
+    service-url:
+      defaultZone: http://127.0.0.1:8001/eureka
+    #      defaultZone: http://www.eureka2.com:8002/eureka/,http://www.eureka3.com:8003/eureka
+    #      defaultZone: http://www.eureka1.com:8001/eureka/,http://www.eureka3.com:8003/eureka
+    #      defaultZone: http://www.eureka2.com:8002/eureka/,http://www.eureka1.com:8001/eureka/
+
+spring:
+  application:
+    name: eureka-server

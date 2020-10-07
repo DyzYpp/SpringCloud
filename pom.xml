@@ -5,8 +5,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>eureka-server</module>
-        <module>eureka-client-one</module>
-        <module>eureka-client-comsumer</module>
+        <module>eureka-client-product</module>
+        <module>eureka-client-consumer</module>
+        <module>cloud-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

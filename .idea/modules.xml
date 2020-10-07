@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringCloud.iml" filepath="$PROJECT_DIR$/SpringCloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-client-comsumer/eureka-client-comsumer.iml" filepath="$PROJECT_DIR$/eureka-client-comsumer/eureka-client-comsumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-client-one/eureka-client-one.iml" filepath="$PROJECT_DIR$/eureka-client-one/eureka-client-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-common/cloud-common.iml" filepath="$PROJECT_DIR$/cloud-common/cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" filepath="$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-product/eureka-client-product.iml" filepath="$PROJECT_DIR$/eureka-client-product/eureka-client-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
     </modules>
   </component>
